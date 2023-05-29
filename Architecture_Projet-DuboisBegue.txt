@@ -1,0 +1,8 @@
+Esteban Dubois - Binôme avec Ethan Begue - TP4A4
+
+Pour le projet, nous avons utilisé le modèle MVC car nous n'avons pas eu les séances où on devait passer notre modèle MVC en MVP. Par la suite, nous n'avions pas le temps de le modifier donc nous sommes restés en MVC. 
+Notre MVC se compose de trois packages : 
+- Model : On y retrouve les classes Data, Model et WeekMeal. 
+	Data sert à stocker les valeurs de chaque type de transports, WeekMeal sert à stocker les valeurs des différents repas (et de 	calculer leur impacte en C02) et enfin Model qui sert à établir le maximum et le minimum de C02.
+- View : On y retrouve toutes les classes de Panel (PanelHandler, PanelComing...).
+- Controller : On y retrouve la classe ControllerButtons. Il va permettre de gérer les différents boutons sur les panels pour par exemple de passer d'un panel à un autre.
